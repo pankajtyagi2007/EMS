@@ -102,6 +102,7 @@ public class Application
 
 			Set<Attendee> s = event.getAttendee();
 			Iterator<Attendee> it1 = s.iterator();
+			System.out.println("+++++++++++++ it1 +++++++++" + it1);
 
 			while (it1.hasNext())
 			{
